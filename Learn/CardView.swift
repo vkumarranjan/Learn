@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
+    var card: Card
     
     var colors = [Color("Color01"), Color("Color02")]
     var body: some View {
@@ -55,7 +56,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardView(card: cardData[0])
             .previewLayout(.sizeThatFits)
             .padding()
         

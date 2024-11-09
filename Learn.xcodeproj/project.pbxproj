@@ -11,6 +11,11 @@
 		D61CE4662C169D55001D2295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CE4652C169D55001D2295 /* ContentView.swift */; };
 		D61CE4682C169D56001D2295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61CE4672C169D56001D2295 /* Assets.xcassets */; };
 		D61CE46B2C169D56001D2295 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61CE46A2C169D56001D2295 /* Preview Assets.xcassets */; };
+		D61CE4742C169F03001D2295 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61CE4732C169F03001D2295 /* CardView.swift */; };
+		D6A227312C22843B004B08B8 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A227302C22843B004B08B8 /* CardModel.swift */; };
+		D6A227332C22845E004B08B8 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6A227322C22845E004B08B8 /* sound-chime.mp3 */; };
+		D6A227352C228469004B08B8 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A227342C228468004B08B8 /* PlaySound.swift */; };
+		D6A227372C228474004B08B8 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A227362C228474004B08B8 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D61CE4652C169D55001D2295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D61CE4672C169D56001D2295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D61CE46A2C169D56001D2295 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D61CE4732C169F03001D2295 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D6A227302C22843B004B08B8 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		D6A227322C22845E004B08B8 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		D6A227342C228468004B08B8 /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		D6A227362C228474004B08B8 /* CardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,15 @@
 		D61CE4622C169D55001D2295 /* Learn */ = {
 			isa = PBXGroup;
 			children = (
+				D6A227322C22845E004B08B8 /* sound-chime.mp3 */,
 				D61CE4632C169D55001D2295 /* LearnApp.swift */,
+				D6A227362C228474004B08B8 /* CardData.swift */,
 				D61CE4652C169D55001D2295 /* ContentView.swift */,
+				D6A227302C22843B004B08B8 /* CardModel.swift */,
+				D6A227342C228468004B08B8 /* PlaySound.swift */,
 				D61CE4672C169D56001D2295 /* Assets.xcassets */,
 				D61CE4692C169D56001D2295 /* Preview Content */,
+				D61CE4732C169F03001D2295 /* CardView.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D61CE46B2C169D56001D2295 /* Preview Assets.xcassets in Resources */,
+				D6A227332C22845E004B08B8 /* sound-chime.mp3 in Resources */,
 				D61CE4682C169D56001D2295 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A227352C228469004B08B8 /* PlaySound.swift in Sources */,
 				D61CE4662C169D55001D2295 /* ContentView.swift in Sources */,
+				D6A227312C22843B004B08B8 /* CardModel.swift in Sources */,
+				D6A227372C228474004B08B8 /* CardData.swift in Sources */,
+				D61CE4742C169F03001D2295 /* CardView.swift in Sources */,
 				D61CE4642C169D55001D2295 /* LearnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
